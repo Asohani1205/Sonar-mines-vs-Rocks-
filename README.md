@@ -6,10 +6,23 @@ Dataset Description:
 The dataset consists of a collection of sonar readings taken from an underwater environment. Each sonar reading is represented as a set of numerical features that capture different characteristics of the object being detected.
 
 The dataset contains the following columns:
+The dataset contains sonar readings taken from an underwater environment.
 
-#1 Feature_1: Numeric value representing a specific characteristic of the sonar reading.
-#2 Feature_2: Numeric value representing another characteristic of the sonar reading.
-...
-#3 Feature_n: Numeric value representing the nth characteristic of the sonar reading.
+Each sonar reading is represented as a set of numerical features.
+
+The features capture various characteristics of the object being detected by the sonar.
+
+The dataset includes multiple feature columns, labeled as Feature_1, Feature_2, ..., Feature_n.
+
+Each feature column contains numeric values.
+
+The dataset also includes a target column called "Label" that indicates whether the sonar reading corresponds to a "mine" or a "rock."
+
+The Label column contains binary values, where 0 represents a rock and 1 represents a mine.
+
+The goal is to train a machine learning model to accurately classify new sonar readings as either mines or rocks based on their extracted features.
+
+The dataset may require preprocessing steps such as data cleaning, feature selection, and engineering before training the model.
+
 Label: A binary label indicating whether the sonar reading corresponds to a "mine" or a "rock" (0 for rock, 1 for mine).
 train a machine learning model using this dataset to accurately classify new sonar readings as either mines or rocks based on their extracted features.
